@@ -1,0 +1,52 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "user",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "post",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "expCity",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "expSalary",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "submitTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "education",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "specialty",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "graduation",
+      "fieldType": "Integer"
+    }
+  ],
+  "changelogDate": "20200611134804",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "apply_info",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination"
+}
